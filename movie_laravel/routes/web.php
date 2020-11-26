@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [\App\Http\Controllers\MovieController::class, 'index'])->name('movie.all');
+Route::get('movies/{id}', [\App\Http\Controllers\MovieController::class, 'ShowMovie'])->name('movie.clicked');
+Route::get('/add', [\App\Http\Controllers\MovieController::class, 'add_movie'])->name('post.add_movie');
+Route::post('/addmovie', [\App\Http\Controllers\MovieController::class, 'add'])->name('post.add');
