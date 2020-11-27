@@ -2,8 +2,8 @@
 @section('content')
     <div class="movie-info border-b border-gray-800">
         <div class="container mx-auto px-4 py-16 flex">
-            <img src="/img/movies/{{$movie->image}}" alt="{{$movie->name}}" class="">
-            <div class="ml-24 ml-32">
+            <img src="/img/movies/{{$movie->image}}" class="h-64 w-100">
+            <div class="ml-24 mx-32">
                 <h2 class="text-4xl font-semibold text-gray-400">{{$movie->name}}</h2>
                 <div class="mt-2">
                     <div class="flex items-center text-gray-400">

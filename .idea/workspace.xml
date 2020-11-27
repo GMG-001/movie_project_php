@@ -11,10 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d13b348-28ad-4d9e-8481-f43709611700" name="Default Changelist" comment="first">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project_php.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/.env.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/resources/views/layouts/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/resources/views/layouts/show.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,10 +37,11 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mongo&#10;mariadb" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cloned" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/movie_laravel" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -53,6 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606371876585</updated>
       <workItem from="1606371877703" duration="518000" />
+      <workItem from="1606470572102" duration="986000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1606372327175</created>
@@ -77,6 +78,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -84,6 +86,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="first" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1473" y="43" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606470874753">
+      <screen x="1366" y="0" width="1024" height="768" />
+    </state>
+    <state x="1473" y="43" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.715/1366.0.1024.768@1366.0.1024.768" timestamp="1606470874753" />
+    <state x="1661" y="140" width="424" height="484" key="FileChooserDialogImpl" timestamp="1606471556117">
+      <screen x="1366" y="0" width="1024" height="768" />
+    </state>
+    <state x="1661" y="140" width="424" height="484" key="FileChooserDialogImpl/0.27.1366.715/1366.0.1024.768@1366.0.1024.768" timestamp="1606471556117" />
     <state x="278" y="118" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1606372342996">
       <screen x="0" y="27" width="1366" height="715" />
     </state>
