@@ -19,13 +19,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6b39284-e064-4fa5-a064-3f4d61584c20" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
+    <list default="true" id="c6b39284-e064-4fa5-a064-3f4d61584c20" name="Default Changelist" comment="search_add">
+      <change afterPath="$PROJECT_DIR$/app/Http/Livewire/SearchDropdown.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/livewire/search-dropdown.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/movie_laravel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/movie_laravel.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MovieController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MovieController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Movie.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Movie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/main.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,6 +155,7 @@
       <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
       <path value="$PROJECT_DIR$/vendor/voku/portable-ascii" />
       <path value="$PROJECT_DIR$/vendor/fakerphp/faker" />
+      <path value="$PROJECT_DIR$/vendor/livewire/livewire" />
     </include_path>
   </component>
   <component name="ProjectId" id="1kozTqeOKvRsWYYDLROIfoMWxvr" />
@@ -207,6 +213,11 @@
       <workItem from="1606410896787" duration="3438000" />
       <workItem from="1606415142437" duration="425000" />
       <workItem from="1606471559601" duration="1031000" />
+      <workItem from="1606480936474" duration="986000" />
+      <workItem from="1606539300119" duration="566000" />
+      <workItem from="1606547960503" duration="1743000" />
+      <workItem from="1606576631562" duration="2901000" />
+      <workItem from="1602799064965" duration="14761000" />
     </task>
     <servers />
   </component>
@@ -227,6 +238,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="search_add" />
+    <option name="LAST_COMMIT_MESSAGE" value="search_add" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1456" y="42" width="824" height="684" key="#CLI_Interpreters" timestamp="1606415381815">
@@ -245,11 +258,11 @@
       <screen x="1366" y="0" width="1024" height="768" />
     </state>
     <state x="1473" y="43" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.715/1366.0.1024.768@1366.0.1024.768" timestamp="1606382663369" />
-    <state x="1712" y="125" width="357" height="520" key="FileChooserDialogImpl" timestamp="1606415281917">
-      <screen x="1366" y="0" width="1024" height="768" />
+    <state x="461" y="143" width="357" height="520" key="FileChooserDialogImpl" timestamp="1606549615023">
+      <screen x="0" y="27" width="1366" height="715" />
     </state>
-    <state x="461" y="143" width="424" height="484" key="FileChooserDialogImpl/0.27.1366.715/1366.0.1024.768@0.27.1366.715" timestamp="1606406819230" />
-    <state x="1712" y="125" width="357" height="520" key="FileChooserDialogImpl/0.27.1366.715/1366.0.1024.768@1366.0.1024.768" timestamp="1606415281917" />
+    <state x="461" y="143" width="424" height="484" key="FileChooserDialogImpl/0.27.1366.715/1366.0.1024.768@0.27.1366.715" timestamp="1606549615023" />
+    <state x="1712" y="125" width="357" height="520" key="FileChooserDialogImpl/0.27.1366.715/1366.0.1024.768@1366.0.1024.768" timestamp="1606481920626" />
     <state x="1368" y="0" key="SettingsEditor" timestamp="1606415567486">
       <screen x="1366" y="0" width="1024" height="768" />
     </state>

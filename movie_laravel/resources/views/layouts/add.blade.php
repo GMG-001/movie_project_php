@@ -34,7 +34,7 @@
                     <input type="text" class="bg-gray-700 rounded-full w-64 px-4 py-1" placeholder="movie_link" name="movie_link">
                 </div>
                 <div class="form-group">
-                    <input type="file" class="bg-gray-700 rounded-full w-64 px-4 py-1" name="image">
+                    <input type="file" multiple class="bg-gray-700 rounded-full w-64 px-4 py-1" name="image[]">
                 </div>
             </div>
             <input type="hidden" name="_token" id="csrf_token" value="{{csrf_token()}}">

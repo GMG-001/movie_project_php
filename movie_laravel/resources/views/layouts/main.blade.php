@@ -6,6 +6,7 @@
     <title>movie app</title>
     <!-- style -->
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <livewire:styles />
 </head>
 <body class="font-sans bg-gray-900 text-white">
 <nav class="border-b border-gray-800">
@@ -25,13 +26,10 @@
                 <a href="#" class="hover:text-gray-300">Actors</a>
             </li>
         </ul>
-        <div class="flex items-center">
-            <div class="relative">
-                <input type="text" class="bg-gray-800 rounded-full w-64 px-4 py-1" placeholder="search">
-            </div>
-        </div>
+        <livewire:search-dropdown></livewire:search-dropdown>
     </div>
 </nav>
 @yield('content')
+<livewire:scripts />
 </body>
 </html>

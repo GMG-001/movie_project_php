@@ -18,8 +18,12 @@ class Movie extends Model
         'in_the_cast',
         'description',
         'movie_link',
+        'image',
 
     ];
+    public function search(){
+        return Movie::where('year')->get();
+    }
 
     public function getMovies(){
         return Movie::all();

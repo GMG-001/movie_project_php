@@ -9,7 +9,8 @@ class MovieController extends Controller
 {
     public function index(){
         $movies=Movie::all();
-        return view('layouts.index')->with('movies',$movies);
+        return view('layouts.index',['movies'=>$movies
+        ]);
     }
 
     public function ShowMovie($id){
