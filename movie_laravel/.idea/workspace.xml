@@ -20,17 +20,84 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6b39284-e064-4fa5-a064-3f4d61584c20" name="Default Changelist" comment="search_add">
-      <change afterPath="$PROJECT_DIR$/app/Http/Livewire/SearchDropdown.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/livewire/search-dropdown.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ActorController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/LoginController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Mail/MovieAddMail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Actor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Tag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Notifications/MovieAddNotification.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Policies/MoviePolicy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_11_23_105357_create_tags_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_12_24_125622_create_users_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_12_27_162218_create_actors_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_12_31_064427_create_movie_tag_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_04_081906_create_movie_user_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_04_150011_create_notifications_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/actors/1609760265.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/actors/1609761282.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/movies/1602801287.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/movies/1602801586.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/movies/1608885937.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/movies/1608885947.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/movies/1608885965.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/movies/1608886341.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/movies/1608886450.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/movies/1608886550.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/movies/1608886615.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/movies/1608886620.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/movies/1608886651.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/movies/1608886672.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/movies/1608890365.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/movies/1609399392.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/movies/1609400616.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/movies/1609400678.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/movies/1609400725.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/movies/1609400763.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/movies/1609400805.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/movies/1609400864.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/movies/1609400868.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/movies/1609400921.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/movies/1609401524.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/movies/1609401824.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/movies/1609403189.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/movies/1609403293.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/movies/1609403299.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/movies/1609403402.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/movies/1609403472.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/movies/1609403889.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/movies/1609405068.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/movies/1609773260.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/movies/1609773880.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/movies/1609774102.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/actor.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/actor_add.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/genre.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/liked.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/mail/movie_add.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/user/login.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/user/registration.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/user/user_page.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/project_php.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/project_php.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/30800d0f-9d56-491d-8763-21f5320fd47a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/30800d0f-9d56-491d-8763-21f5320fd47a.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/movie_laravel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/movie_laravel.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MovieController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MovieController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/SearchDropdown.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/SearchDropdown.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/Movie.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Movie.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_11_26_092129_create_movies_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_11_26_092129_create_movies_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/main.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/search-dropdown.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/search-dropdown.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +146,6 @@
       <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
       <path value="$PROJECT_DIR$/vendor/sebastian/type" />
       <path value="$PROJECT_DIR$/vendor/sebastian/version" />
-      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
@@ -171,10 +237,11 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.19.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.19.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../back_davalebebi/php-laravel/assignmet#1" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -188,6 +255,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/database/migrations" />
       <recent name="$PROJECT_DIR$/public/img" />
     </key>
   </component>
@@ -217,8 +285,33 @@
       <workItem from="1606539300119" duration="566000" />
       <workItem from="1606547960503" duration="1743000" />
       <workItem from="1606576631562" duration="2901000" />
-      <workItem from="1602799064965" duration="14761000" />
+      <workItem from="1602799064965" duration="14988000" />
+      <workItem from="1606645624483" duration="774000" />
+      <workItem from="1606649307290" duration="288000" />
+      <workItem from="1606649627699" duration="388000" />
+      <workItem from="1606663802528" duration="153000" />
+      <workItem from="1606668614909" duration="210000" />
+      <workItem from="1608812509936" duration="15330000" />
+      <workItem from="1608830992373" duration="2561000" />
+      <workItem from="1608883631638" duration="4381000" />
+      <workItem from="1608990371677" duration="1316000" />
+      <workItem from="1608991867085" duration="33000" />
+      <workItem from="1609351671477" duration="349000" />
+      <workItem from="1609395752097" duration="12832000" />
+      <workItem from="1602798640975" duration="4146000" />
+      <workItem from="1609686473667" duration="41000" />
+      <workItem from="1609689560485" duration="2782000" />
+      <workItem from="1609736206218" duration="16399000" />
+      <workItem from="1609770809307" duration="3989000" />
     </task>
+    <task id="LOCAL-00001" summary="search_add">
+      <created>1606641793700</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606641793700</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,41 +333,5 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="search_add" />
     <option name="LAST_COMMIT_MESSAGE" value="search_add" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="1456" y="42" width="824" height="684" key="#CLI_Interpreters" timestamp="1606415381815">
-      <screen x="1366" y="0" width="1024" height="768" />
-    </state>
-    <state x="1456" y="42" width="824" height="684" key="#CLI_Interpreters/0.27.1366.715/1366.0.1024.768@1366.0.1024.768" timestamp="1606415381815" />
-    <state x="1529" y="0" width="688" height="768" key="#PHP" timestamp="1606415383086">
-      <screen x="1366" y="0" width="1024" height="768" />
-    </state>
-    <state x="1529" y="0" width="688" height="768" key="#PHP/0.27.1366.715/1366.0.1024.768@1366.0.1024.768" timestamp="1606415383086" />
-    <state x="1664" y="229" width="420" height="272" key="#Usage_Scope" timestamp="1606415563440">
-      <screen x="1366" y="0" width="1024" height="768" />
-    </state>
-    <state x="1664" y="229" width="420" height="272" key="#Usage_Scope/0.27.1366.715/1366.0.1024.768@1366.0.1024.768" timestamp="1606415563440" />
-    <state x="1473" y="43" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606382663369">
-      <screen x="1366" y="0" width="1024" height="768" />
-    </state>
-    <state x="1473" y="43" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.715/1366.0.1024.768@1366.0.1024.768" timestamp="1606382663369" />
-    <state x="461" y="143" width="357" height="520" key="FileChooserDialogImpl" timestamp="1606549615023">
-      <screen x="0" y="27" width="1366" height="715" />
-    </state>
-    <state x="461" y="143" width="424" height="484" key="FileChooserDialogImpl/0.27.1366.715/1366.0.1024.768@0.27.1366.715" timestamp="1606549615023" />
-    <state x="1712" y="125" width="357" height="520" key="FileChooserDialogImpl/0.27.1366.715/1366.0.1024.768@1366.0.1024.768" timestamp="1606481920626" />
-    <state x="1368" y="0" key="SettingsEditor" timestamp="1606415567486">
-      <screen x="1366" y="0" width="1024" height="768" />
-    </state>
-    <state x="172" y="27" key="SettingsEditor/0.27.1366.715/1366.0.1024.768@0.27.1366.715" timestamp="1606396254201" />
-    <state x="1368" y="0" key="SettingsEditor/0.27.1366.715/1366.0.1024.768@1366.0.1024.768" timestamp="1606415567486" />
-    <state x="607" y="27" width="609" height="715" maximized="true" key="dock-window-1" timestamp="1606392175403">
-      <screen x="0" y="27" width="1366" height="715" />
-    </state>
-    <state x="607" y="27" width="609" height="715" maximized="true" key="dock-window-1/0.27.1366.715/1366.0.1024.768@1366.0.1024.768" timestamp="1606392175403" />
-    <state x="403" y="196" width="550" height="377" key="jetbrains.nodejs.interpreters-dialog" timestamp="1606396207114">
-      <screen x="0" y="27" width="1366" height="715" />
-    </state>
-    <state x="403" y="196" width="550" height="377" key="jetbrains.nodejs.interpreters-dialog/0.27.1366.715/1366.0.1024.768@0.27.1366.715" timestamp="1606396207114" />
   </component>
 </project>

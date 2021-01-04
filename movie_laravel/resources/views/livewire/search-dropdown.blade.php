@@ -8,8 +8,9 @@
         <ul>
             @foreach($searchResults as $result)
             <li class="border-b border-gray-700">
-                <a href="{{route('movie.clicked', $result->id)}}" class="black hover:bg-gray-700 px-3 py-3 flex items-center">
-                    <img src="/img/movies/{{$result['image']}}" alt="poster" class="w-64">
+                <a href="{{route('movie.clicked', $result->id)}}"
+                   class="black hover:bg-gray-700 px-3 py-3 flex items-center">
+                    <img src="/img/movies/{{$result['image']}}" alt="poster" class="w-12">
                     <span class="ml-4">{{$result['name']}}</span>
                 </a>
             </li>

@@ -8,10 +8,10 @@ use Illuminate\Database\Eloquent\Model;
 class Movie extends Model
 {
     use HasFactory;
+    protected $table='movies';
     protected $fillable = [
         'name',
         'year',
-        'genre',
         'duration',
         'sound',
         'director',
@@ -21,11 +21,14 @@ class Movie extends Model
         'image',
 
     ];
-    public function search(){
-        return Movie::where('year')->get();
+    public function user(){
+        return $this->belongsTo(User::class);
+    }
+    public function tags(){
+        return $this->belongsToMany(Tag::class);
+    }
+    public function users(){
+        return $this->belongsToMany(User::class);
     }
 
-    public function getMovies(){
-        return Movie::all();
-    }
 }

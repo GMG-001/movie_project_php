@@ -2,18 +2,15 @@
 @section('content')
     <div class="bg-gray-800  text-white mx-64">
         <div class="cox-header with-border">
-            <h3 class="box-title mx-32">add movie</h3>
+            <h3 class="box-title mx-32">ფილმის დამატება</h3>
         </div>
-        <form method="POST" enctype="multipart/form-data" action="{{route('post.add')}}">
+        <form method="POST" enctype="multipart/form-data" action="{{route('add')}}">
             <div class="box-body">
                 <div class="form-group">
                     <input type="text" class="bg-gray-700 rounded-full w-64 px-4 py-1" placeholder="name" name="name">
                 </div>
                 <div class="form-group">
                     <input type="text" class="bg-gray-700 rounded-full w-64 px-4 py-1" placeholder="year" name="year">
-                </div>
-                <div class="form-group">
-                    <input type="text" class="bg-gray-700 rounded-full w-64 px-4 py-1" placeholder="genre" name="genre">
                 </div>
                 <div class="form-group">
                     <input type="text" class="bg-gray-700 rounded-full w-64 px-4 py-1" placeholder="duration" name="duration">
@@ -34,8 +31,15 @@
                     <input type="text" class="bg-gray-700 rounded-full w-64 px-4 py-1" placeholder="movie_link" name="movie_link">
                 </div>
                 <div class="form-group">
-                    <input type="file" multiple class="bg-gray-700 rounded-full w-64 px-4 py-1" name="image[]">
+                    <input type="file" multiple class="bg-gray-700 rounded-full w-64 px-4 py-1" name="image">
                 </div>
+            </div>
+            <div class="form-group">
+                <select name="genres[]" class="bg-gray-700 w-64 px-4 py-1"  id="" multiple>
+                    @foreach($tags as $tag)
+                        <option value="{{$tag->id}}">{{$tag->genre}}</option>
+                    @endforeach
+                </select>
             </div>
             <input type="hidden" name="_token" id="csrf_token" value="{{csrf_token()}}">
             <div class="box-footer">
