@@ -3,6 +3,7 @@
     <div>
         <div>
             @if($user->is_admin)
+                <a href="{{route('add_actor1')}}" class="hover:text-gray-300">მსახიობის დამატება</a><br>
                 <a href="{{route('add_movie')}}" class="hover:text-gray-300">ფილმის დამატება</a>
             @endif
         </div>

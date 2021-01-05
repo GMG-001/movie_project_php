@@ -26,7 +26,10 @@ Route::middleware('auth')->group(function (){
     Route::get('/add_actor1',[ActorController::class, 'add_actor1'])->name('add_actor1');
     Route::post('/add_actor',[ActorController::class, 'add_actor'])->name('add_actor');
     Route::get('/movies/{movie}/like', [MovieController::class, 'like'])->name('like');
-    Route::delete('movies/{id}/delete', [MovieController::class, 'delete'])->name('movie.delete');
+    Route::delete('movies/{id}/delete', [MovieController::class, 'delete'])->name('delete');
     Route::get('/liked',[MovieController::class, 'liked'])->name('liked');
+    Route::get('/{movie}/update',[MovieController::class, 'update'])->name('update');
+    Route::put('/{movie}/update_save',[MovieController::class, 'update_save'])->name('update_save');
+
 
 });

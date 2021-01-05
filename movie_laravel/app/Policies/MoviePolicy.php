@@ -30,9 +30,9 @@ class MoviePolicy
      */
     public function like(User $user, Movie $movie)
     {
-        {
+
             return $movie->user()->is($user);
-        }
+
     }
 
     /**
@@ -55,7 +55,7 @@ class MoviePolicy
      */
     public function update(User $user, Movie $movie)
     {
-        //
+        return $movie->user()->is($user);
     }
 
     /**

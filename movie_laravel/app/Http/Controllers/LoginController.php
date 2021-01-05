@@ -31,6 +31,11 @@ class LoginController extends Controller
         return view('user.registration');
     }
     public function registration_save(Request $request){
+        $request->validate([
+            'name'=>'required',
+            'email' => 'required',
+            'password' => 'required'
+        ]);
 
         $user=new User($request->all());
         $user->password=bcrypt($request->input('password'));

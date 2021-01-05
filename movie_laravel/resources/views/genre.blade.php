@@ -11,7 +11,7 @@
         </a>
         <div class="mt-2">
             <a href="{{route('movie.clicked', $movie->id)}}" class="text-lg mt-2 hover:text-gray-300">{{$movie->name}}</a>
-            <div class="flex items-center text-gray-400">
+            <div class="flex items-center text-gray-400 hover:text-gray-100">
                 <a>გამოსვლის თარიღი: {{$movie->year}}</a>
             </div>
             <div class="text-gray-400 text-lg mt-2 hover:text-gray-100">

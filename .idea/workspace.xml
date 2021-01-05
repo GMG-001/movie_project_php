@@ -11,44 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d13b348-28ad-4d9e-8481-f43709611700" name="Default Changelist" comment="first">
-      <change afterPath="$PROJECT_DIR$/movie_laravel/app/Http/Controllers/ActorController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie_laravel/app/Http/Controllers/LoginController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie_laravel/app/Models/Actor.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie_laravel/database/migrations/2020_12_24_125622_create_users_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie_laravel/database/migrations/2020_12_27_162218_create_actors_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie_laravel/public/img/actors/1609092398.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie_laravel/public/img/movies/1608885937.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie_laravel/public/img/movies/1608885947.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie_laravel/public/img/movies/1608885965.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie_laravel/public/img/movies/1608886341.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie_laravel/public/img/movies/1608886450.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie_laravel/public/img/movies/1608886550.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie_laravel/public/img/movies/1608886615.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie_laravel/public/img/movies/1608886620.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie_laravel/public/img/movies/1608886651.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie_laravel/public/img/movies/1608886672.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie_laravel/public/img/movies/1608890365.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie_laravel/resources/views/actor_add.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie_laravel/resources/views/user/login.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie_laravel/resources/views/user/registration.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie_laravel/resources/views/user/user_page.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/project_php.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/project_php.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie_laravel/public/img/movies/1609830147.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movie_laravel/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/.env.example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie_laravel/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie_laravel/.idea/dataSources/30800d0f-9d56-491d-8763-21f5320fd47a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/.idea/dataSources/30800d0f-9d56-491d-8763-21f5320fd47a.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie_laravel/.idea/movie_laravel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/.idea/movie_laravel.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie_laravel/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movie_laravel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie_laravel/app/Http/Controllers/MovieController.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/app/Http/Controllers/MovieController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie_laravel/app/Http/Livewire/SearchDropdown.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/app/Http/Livewire/SearchDropdown.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie_laravel/app/Models/Movie.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/app/Models/Movie.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie_laravel/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie_laravel/resources/views/layouts/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/resources/views/layouts/add.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie_laravel/resources/views/layouts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/resources/views/layouts/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie_laravel/resources/views/layouts/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/resources/views/layouts/main.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie_laravel/resources/views/livewire/search-dropdown.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/resources/views/livewire/search-dropdown.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie_laravel/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/app/Notifications/MovieAddNotification.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/app/Notifications/MovieAddNotification.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +152,7 @@
     <property name="DatabaseDriversLRU" value="mongo&#10;mariadb" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../back_davalebebi/Php/Php_test_first" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/movie_laravel" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -208,6 +174,7 @@
       <workItem from="1606470572102" duration="986000" />
       <workItem from="1609085805600" duration="7308000" />
       <workItem from="1609158720963" duration="35000" />
+      <workItem from="1609863370597" duration="61000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1606372327175</created>

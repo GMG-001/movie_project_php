@@ -42,10 +42,11 @@ class MovieAddNotification extends Notification
      */
     public function toMail($notifiable)
     {
+//        dd($this->data['text']);
         return (new MailMessage)
-                    ->line('The introduction to the notification.')
-                    ->action('Notification Action', url('/'))
-                    ->line('Thank you for using our application!');
+                    ->line($this->data['text'])
+                    ->action('ფილმების სანახავად დააჭირეთ ღილაკს', url('/'))
+                    ->line('გმადლობთ რომ იყენებთ ჩვენს საიტს');
     }
 
     /**

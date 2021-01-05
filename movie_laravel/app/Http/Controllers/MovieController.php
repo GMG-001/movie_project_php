@@ -2,25 +2,25 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\MovieAddRequest;
 use App\Models\Actor;
 use App\Models\Movie;
 use App\Models\Tag;
 use App\Notifications\MovieAddNotification;
-use  Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
 class MovieController extends Controller
 {
     public function index(){
         $movies=Movie::with(['tags'])->get();
-        return view('layouts.index',['movies'=>$movies
+        return view('index',['movies'=>$movies
         ]);
     }
 
     public function ShowMovie($id){
         $actors=Actor::all();
         $movie=Movie::findOrFail($id);
-        return view('layouts.show', compact('movie','actors'));
+        return view('show', compact('movie','actors'));
     }
 
     public function genre($id){
@@ -31,17 +31,17 @@ class MovieController extends Controller
 
     public function add_movie(){
         $tags = Tag::all();
-        return view('layouts.add',compact('tags'));
+        return view('add',compact('tags'));
     }
 
 
-    public function add(Request $request){
+    public function add(MovieAddRequest $movieAddRequest){
 
-        $movie=new Movie($request->all());
+        $movie=new Movie($movieAddRequest->all());
 
 
-        if($request->hasFile('image')){
-            $file=$request->file('image');
+        if($movieAddRequest->hasFile('image')){
+            $file=$movieAddRequest->file('image');
             $extension=$file->getClientOriginalExtension();
             $filename=time().'.'.$extension;
             $file->move('img/movies/', $filename);
@@ -52,10 +52,10 @@ class MovieController extends Controller
         $user=Auth::user();
         $movie->user_id=$user->id;
         $data=[
-            "text"=>'movie with name of'.'  '.$movie->name.'  '.'has been added'
+            "text"=>'ფილმი სახელიად'.'  '.$movie->name.'  '.'დაემატა საიტზე'
         ];
         $movie->save();
-        $movie->tags()->attach($request->genres);
+        $movie->tags()->attach($movieAddRequest->genres);
         $user->notify(new MovieAddNotification($data));
         return redirect()->back();
     }
@@ -76,9 +76,30 @@ class MovieController extends Controller
         $user=Auth::user();
         return view('liked', compact('user'));
     }
+
     public function delete($id)
     {
         $post = Movie::findOrFail($id);
         $post->delete();
+    }
+    public function update(Movie $movie){
+        return view('update',compact('movie'));
+    }
+
+    public function update_save(MovieAddRequest $movieAddRequest, $id){
+
+        $movie = Movie::findOrFail($id);
+//        dd($movie);
+        if($movieAddRequest->hasFile('image')){
+            $file=$movieAddRequest->file('image');
+            $extension=$file->getClientOriginalExtension();
+            $filename=time().'.'.$extension;
+            $file->move('img/movies/', $filename);
+            $movie->image=$filename;
+        }else{
+            abort(500);
+        }
+        $movie->update();
+        return redirect()->back();
     }
 }
