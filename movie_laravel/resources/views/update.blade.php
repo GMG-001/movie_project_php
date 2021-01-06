@@ -35,16 +35,16 @@
                     <input type="file" multiple class="bg-gray-700 rounded-full w-64 px-4 py-1" name="image" value="{{old('image', $movie->image)}}">
                 </div>
             </div>
-{{--            <div class="form-group">--}}
-{{--                <select name="genres[]" class="bg-gray-700 w-64 px-4 py-1"  id="" multiple>--}}
-{{--                    @foreach($tags as $tag)--}}
-{{--                        <option value="{{$tag->id}}">{{$tag->genre}}</option>--}}
-{{--                    @endforeach--}}
-{{--                </select>--}}
-{{--            </div>--}}
+            <div class="form-group">
+                <select name="genres[]" class="bg-gray-700 w-64 px-4 py-1"  id="" multiple>
+                    @foreach($tags as $tag)
+                        <option value="{{$tag->id}}">{{$tag->genre}}</option>
+                    @endforeach
+                </select>
+            </div>
             <input type="hidden" name="_token" id="csrf_token" value="{{csrf_token()}}">
             <div class="box-footer">
-                <button type="submit" class="btn btn-primary mx-32">დამატება</button>
+                <button type="submit" class="btn btn-primary mx-32">განახლება</button>
             </div>
         </form>
     </div>

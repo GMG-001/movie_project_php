@@ -10,16 +10,14 @@
     <!-- style -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js" defer></script>
     <livewire:styles />
 </head>
 <body class="font-sans bg-gray-900 text-white">
 <nav class="border-b border-gray-800">
     <div class="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between px-4 py-6">
         <ul class="flex flex-col sm:flex-row items-center">
-            <li>
-                <a href="#">
-                </a>
-            </li>
+                <livewire:genre-dropdown></livewire:genre-dropdown>
             <li class="ml-16">
                 <a href="{{route('movie.all')}}" class="hover:text-gray-300">ფილმები</a>
             </li>
@@ -42,8 +40,6 @@
                 </ul>
             @endauth
                 @endif
-
-
 
         <livewire:search-dropdown></livewire:search-dropdown>
     </div>

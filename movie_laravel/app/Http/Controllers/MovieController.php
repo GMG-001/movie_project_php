@@ -83,13 +83,13 @@ class MovieController extends Controller
         $post->delete();
     }
     public function update(Movie $movie){
-        return view('update',compact('movie'));
+        $tags=Tag::all();
+        return view('update',compact('movie','tags'));
     }
 
     public function update_save(MovieAddRequest $movieAddRequest, $id){
 
         $movie = Movie::findOrFail($id);
-//        dd($movie);
         if($movieAddRequest->hasFile('image')){
             $file=$movieAddRequest->file('image');
             $extension=$file->getClientOriginalExtension();
@@ -100,6 +100,12 @@ class MovieController extends Controller
             abort(500);
         }
         $movie->update();
+        if ($movie->tags()->detach($movieAddRequest->genres)==true){
+            $movie->tags()->detach($movieAddRequest->genres);
+        }else{
+            $movie->tags()->attach($movieAddRequest->genres);
+        }
+
         return redirect()->back();
     }
 }

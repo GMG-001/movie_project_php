@@ -14,7 +14,7 @@ Route::get('/logout', [LoginController::class, 'logout'])->name('logout');
 
 Route::get('/', [MovieController::class, 'index'])->name('movie.all');
 Route::get('movies/{id}', [MovieController::class, 'ShowMovie'])->name('movie.clicked');
-Route::get('/classes/{id}', [MovieController::class, 'genre'])->name('genre');
+Route::get('/genre/{id}', [MovieController::class, 'genre'])->name('genre');
 Route::get('/actors', [ActorController::class, 'show_actor'])->name('show_actor');
 
 

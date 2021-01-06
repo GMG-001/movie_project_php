@@ -14,7 +14,7 @@
             </div>
             <input type="hidden" name="_token" id="csrf_token" value="{{csrf_token()}}">
             <div class="box-footer">
-                <button type="submit" class="btn btn-primary mx-32">ავტორიზაცია</button>
+                <button type="submit" class="btn btn-primary mx-32">ავტორიზაცია</button><br>
                 <button class="btn btn-primary mx-32"><a href="{{route('registration')}}">რეგისტრაცია</a></button>
             </div>
         </form>
