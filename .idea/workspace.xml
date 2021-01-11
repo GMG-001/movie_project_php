@@ -10,12 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d13b348-28ad-4d9e-8481-f43709611700" name="Default Changelist" comment="first">
-      <change afterPath="$PROJECT_DIR$/movie_laravel/public/img/movies/1609830147.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie_laravel/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/.env.example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie_laravel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie_laravel/app/Notifications/MovieAddNotification.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/app/Notifications/MovieAddNotification.php" afterDir="false" />
-    </list>
+    <list default="true" id="9d13b348-28ad-4d9e-8481-f43709611700" name="Default Changelist" comment="add_is_genre_dropdown_tag_edit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +22,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -152,7 +148,7 @@
     <property name="DatabaseDriversLRU" value="mongo&#10;mariadb" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/movie_laravel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -175,6 +171,7 @@
       <workItem from="1609085805600" duration="7308000" />
       <workItem from="1609158720963" duration="35000" />
       <workItem from="1609863370597" duration="61000" />
+      <workItem from="1609926899109" duration="763000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1606372327175</created>
@@ -183,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606372327175</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add_is_genre_dropdown_tag_edit">
+      <created>1609927165177</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609927165177</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +208,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first" />
-    <option name="LAST_COMMIT_MESSAGE" value="first" />
+    <MESSAGE value="add_is_genre_dropdown_tag_edit" />
+    <option name="LAST_COMMIT_MESSAGE" value="add_is_genre_dropdown_tag_edit" />
   </component>
 </project>
