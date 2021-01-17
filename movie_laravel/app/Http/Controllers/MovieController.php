@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Auth;
 class MovieController extends Controller
 {
     public function index(){
-        $movies=Movie::with(['tags'])->get();
+        $movies=Movie::with(['tags'])->paginate(24);
         return view('index',['movies'=>$movies
         ]);
     }

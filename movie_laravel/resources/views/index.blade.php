@@ -36,8 +36,13 @@
                     </div>
                 </div>
                 @endforeach
+
             </div>
         </div>
+        <div class="flex justify-center">
+            {{$movies->links()}}
+        </div>
+
     </div>
     <script type="text/javascript">
         $(document).ready(function (){
