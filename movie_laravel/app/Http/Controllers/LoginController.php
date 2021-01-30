@@ -20,7 +20,7 @@ class LoginController extends Controller
         if (Auth::attempt($credentials)){
             return redirect()->route('movie.all');
         }else{
-            abort(403);
+            return redirect()->back();
         }
     }
     public function logout(){
@@ -40,7 +40,7 @@ class LoginController extends Controller
         $user=new User($request->all());
         $user->password=bcrypt($request->input('password'));
         $user->save();
-        return redirect()->back();
+        return redirect()->route('user.login');
     }
     public function user_page(){
         $user=Auth::user();

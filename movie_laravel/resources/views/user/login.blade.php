@@ -1,6 +1,6 @@
 @extends('layouts.main')
 @section('content')
-    <div class="bg-gray-800  text-white mx-64">
+    <div class="bg-gray-800  text-white mx-64 flex justify-center">
         <div class="cox-header with-border">
         </div>
         <form method="GET" enctype="multipart/form-data" action="{{route('user_login')}}">
@@ -13,9 +13,9 @@
                 </div>
             </div>
             <input type="hidden" name="_token" id="csrf_token" value="{{csrf_token()}}">
-            <div class="box-footer">
-                <button type="submit" class="btn btn-primary mx-32">ავტორიზაცია</button><br>
-                <button class="btn btn-primary mx-32"><a href="{{route('registration')}}">რეგისტრაცია</a></button>
+            <div class="box-footer flex justify-center">
+                <button type="submit" class="btn btn-primary">ავტორიზაცია</button>/
+                <button class="btn btn-primary"><a href="{{route('registration')}}">რეგისტრაცია</a></button>
             </div>
         </form>
     </div>

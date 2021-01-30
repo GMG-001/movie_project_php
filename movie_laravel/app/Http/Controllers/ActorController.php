@@ -18,7 +18,6 @@ class ActorController extends Controller
 
     public function add_actor(Request $request){
         $actor=new Actor($request->all());
-//        dd($actor);
         if($request->hasFile('actor_image')){
             $file=$request->file('actor_image');
             $extension=$file->getClientOriginalExtension();
