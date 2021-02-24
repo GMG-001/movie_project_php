@@ -10,6 +10,6 @@ class ProfileDropdown extends Component
     public function render()
     {
         $user=Auth::user();
-        return view('livewire.profil-dropdown',compact('user'));
+        return view('livewire.profile-dropdown',compact('user'));
     }
 }

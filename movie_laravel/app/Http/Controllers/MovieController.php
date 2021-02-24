@@ -8,6 +8,8 @@ use App\Models\Movie;
 use App\Models\Tag;
 use App\Notifications\MovieAddNotification;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\File;
+use Illuminate\Support\Facades\Storage;
 
 class MovieController extends Controller
 {
@@ -79,8 +81,11 @@ class MovieController extends Controller
 
     public function delete($id)
     {
-        $post = Movie::findOrFail($id);
-        $post->delete();
+        $movie = Movie::findOrFail($id);
+        $imagename=$movie->image;
+        $movie->delete();
+        File::delete('img/movies/'.$imagename);
+
     }
     public function update(Movie $movie){
         $tags=Tag::all();
@@ -90,6 +95,9 @@ class MovieController extends Controller
     public function update_save(MovieAddRequest $movieAddRequest, $id){
 
         $movie = Movie::findOrFail($id);
+        $imagename=$movie->image;
+        File::delete('img/movies/'.$imagename);
+
         if($movieAddRequest->hasFile('image')){
             $file=$movieAddRequest->file('image');
             $extension=$file->getClientOriginalExtension();
