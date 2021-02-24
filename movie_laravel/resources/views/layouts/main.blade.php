@@ -29,7 +29,7 @@
             @auth()
                 <ul>
                     <li class="ml-36">
-                        <a href="{{route('user_page')}}" class="hover:text-gray-300">ჩემი გვერდი</a>
+                        <livewire:profile-dropdown></livewire:profile-dropdown>
                     </li>
                 </ul>
             @else
