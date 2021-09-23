@@ -54,7 +54,7 @@ class MovieController extends Controller
         $user=Auth::user();
         $movie->user_id=$user->id;
         $data=[
-            "text"=>'ფილმი სახელიად'.'  '.$movie->name.'  '.'დაემატა საიტზე'
+            "text"=>'ფილმი სახელად'.'  '.$movie->name.'  '.'დაემატა საიტზე'
         ];
         $movie->save();
         $movie->tags()->attach($movieAddRequest->genres);

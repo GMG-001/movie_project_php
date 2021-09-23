@@ -42,8 +42,4 @@ class LoginController extends Controller
         $user->save();
         return redirect()->route('user.login');
     }
-    public function user_page(){
-        $user=Auth::user();
-        return view('user.user_page',compact('user'));
-    }
 }

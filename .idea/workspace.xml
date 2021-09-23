@@ -10,7 +10,131 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d13b348-28ad-4d9e-8481-f43709611700" name="Default Changelist" comment="add_is_genre_dropdown_tag_edit" />
+    <list default="true" id="9d13b348-28ad-4d9e-8481-f43709611700" name="Default Changelist" comment="add_is_genre_dropdown_tag_edit">
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/project_php.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/project_php.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/.env.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/.styleci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/.styleci.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/app/Console/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/app/Exceptions/Handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/app/Http/Controllers/ActorController.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/app/Http/Controllers/ActorController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/app/Http/Controllers/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/app/Http/Controllers/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/app/Http/Controllers/MovieController.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/app/Http/Controllers/MovieController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/app/Http/Livewire/GenreDropdown.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/app/Http/Livewire/GenreDropdown.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/app/Http/Livewire/ProfileDropdown.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/app/Http/Livewire/ProfileDropdown.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/app/Http/Livewire/SearchDropdown.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/app/Http/Livewire/SearchDropdown.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/app/Http/Middleware/EncryptCookies.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/app/Http/Middleware/PreventRequestsDuringMaintenance.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/app/Http/Middleware/PreventRequestsDuringMaintenance.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/app/Http/Middleware/TrimStrings.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/app/Http/Middleware/TrimStrings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/app/Http/Middleware/TrustHosts.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/app/Http/Middleware/TrustHosts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/app/Http/Middleware/TrustProxies.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/app/Http/Middleware/TrustProxies.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/app/Http/Requests/MovieAddRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/app/Http/Requests/MovieAddRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/app/Mail/MovieAddMail.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/app/Mail/MovieAddMail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/app/Models/Actor.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/app/Models/Actor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/app/Models/Movie.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/app/Models/Movie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/app/Models/Tag.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/app/Models/Tag.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/app/Notifications/MovieAddNotification.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/app/Notifications/MovieAddNotification.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/app/Policies/MoviePolicy.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/app/Policies/MoviePolicy.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/app/Providers/BroadcastServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/bootstrap/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/bootstrap/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/bootstrap/cache/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/bootstrap/cache/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/config/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/config/broadcasting.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/config/broadcasting.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/config/cache.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/config/cache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/config/cors.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/config/cors.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/config/filesystems.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/config/hashing.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/config/hashing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/config/logging.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/config/logging.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/config/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/config/mail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/config/queue.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/config/queue.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/config/services.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/config/session.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/config/session.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/config/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/config/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/database/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/database/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/database/factories/UserFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/database/migrations/2020_11_23_105357_create_tags_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/database/migrations/2020_11_23_105357_create_tags_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/database/migrations/2020_11_26_092129_create_movies_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/database/migrations/2020_11_26_092129_create_movies_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/database/migrations/2020_12_24_125622_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/database/migrations/2020_12_24_125622_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/database/migrations/2020_12_27_162218_create_actors_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/database/migrations/2020_12_27_162218_create_actors_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/database/migrations/2020_12_31_064427_create_movie_tag_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/database/migrations/2020_12_31_064427_create_movie_tag_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/database/migrations/2021_01_04_081906_create_movie_user_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/database/migrations/2021_01_04_081906_create_movie_user_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/database/migrations/2021_01_04_150011_create_notifications_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/database/migrations/2021_01_04_150011_create_notifications_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/phpunit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/public/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/public/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/public/img/actors/1609871095.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/public/img/actors/1609871095.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/public/img/movies/1609915682.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/public/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/public/web.config" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/public/web.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/resources/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/resources/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/resources/lang/en/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/resources/lang/en/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/resources/lang/en/pagination.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/resources/lang/en/pagination.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/resources/lang/en/passwords.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/resources/lang/en/passwords.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/resources/lang/en/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/resources/lang/en/validation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/resources/views/actor.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/resources/views/actor.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/resources/views/actor_add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/resources/views/actor_add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/resources/views/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/resources/views/add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/resources/views/genre.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/resources/views/genre.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/resources/views/layouts/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/resources/views/layouts/main.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/resources/views/liked.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/resources/views/liked.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/resources/views/livewire/genre-dropdown.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/resources/views/livewire/genre-dropdown.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/resources/views/livewire/profile-dropdown.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/resources/views/livewire/profile-dropdown.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/resources/views/livewire/search-dropdown.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/resources/views/livewire/search-dropdown.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/resources/views/mail/movie_add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/resources/views/mail/movie_add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/resources/views/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/resources/views/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/resources/views/update.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/resources/views/update.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/resources/views/user/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/resources/views/user/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/resources/views/user/registration.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/resources/views/user/registration.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/resources/views/user/user_page.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/routes/channels.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/routes/channels.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/routes/console.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/routes/console.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/server.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/server.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/storage/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/storage/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/storage/app/public/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/storage/app/public/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/storage/framework/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/storage/framework/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/storage/framework/cache/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/storage/framework/cache/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/storage/framework/cache/data/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/storage/framework/cache/data/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/storage/framework/sessions/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/storage/framework/sessions/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/storage/framework/testing/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/storage/framework/testing/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/storage/framework/views/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/storage/framework/views/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/storage/logs/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/storage/logs/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/tests/CreatesApplication.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/tests/CreatesApplication.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/tests/Feature/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/tests/Feature/ExampleTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/tests/TestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/tests/TestCase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/tests/Unit/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/tests/Unit/ExampleTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_laravel/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/movie_laravel/webpack.mix.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -147,8 +271,9 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mongo&#10;mariadb" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test_1" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -172,6 +297,7 @@
       <workItem from="1609158720963" duration="35000" />
       <workItem from="1609863370597" duration="61000" />
       <workItem from="1609926899109" duration="763000" />
+      <workItem from="1620840159154" duration="5917000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1606372327175</created>

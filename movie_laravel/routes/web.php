@@ -22,7 +22,6 @@ Route::get('/actors', [ActorController::class, 'show_actor'])->name('show_actor'
 Route::middleware('auth')->group(function (){
     Route::get('/add_movie', [MovieController::class, 'add_movie'])->name('add_movie');
     Route::post('/add', [MovieController::class, 'add'])->name('add');
-    Route::get('/user_page', [LoginController::class, 'user_page'])->name('user_page');
     Route::get('/add_actor1',[ActorController::class, 'add_actor1'])->name('add_actor1');
     Route::post('/add_actor',[ActorController::class, 'add_actor'])->name('add_actor');
     Route::get('/movies/{movie}/like', [MovieController::class, 'like'])->name('like');

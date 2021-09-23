@@ -16,8 +16,11 @@
 <body class="font-sans bg-gray-900 text-white">
 <nav class="border-b border-gray-800">
     <div class="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between px-4 py-6">
+        <div class="flex flex-col sm:flex-row items-center mb-8">
+            <livewire:genre-dropdown></livewire:genre-dropdown>
+        </div>
+
         <ul class="flex flex-col sm:flex-row items-center">
-                <livewire:genre-dropdown></livewire:genre-dropdown>
             <li class="ml-16">
                 <a href="{{route('movie.all')}}" class="hover:text-gray-300">ფილმები</a>
             </li>
@@ -28,20 +31,21 @@
         @if (Route::has('user_login'))
             @auth()
                 <ul>
-                    <li class="ml-36">
+                    <li class="ml-36 mb-8">
                         <livewire:profile-dropdown></livewire:profile-dropdown>
                     </li>
                 </ul>
             @else
                 <ul>
-                    <li class="ml-36">
+                    <li class="ml-36 mb-8">
                         <a href="{{route('Login')}}" class="hover:text-gray-300">ავტორიზაცია</a>
                     </li>
                 </ul>
             @endauth
                 @endif
-
-        <livewire:search-dropdown></livewire:search-dropdown>
+        <div class="flex flex-col sm:flex-row items-center">
+            <livewire:search-dropdown></livewire:search-dropdown>
+        </div>
     </div>
 </nav>
 @yield('content')
